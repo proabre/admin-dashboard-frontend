@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --dash-board-bacground-color: rgb(85, 85, 234);
+}
+
+.container {
+  border: 2px solid red;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+.sidebar-dashboard {
+  border: 2px solid yellowgreen;
+
+  background-color: var(--dash-board-bacground-color);
+  color: white;
+  padding: 1rem;
+}
+.header {
+  border: 2px solid blue;
+  margin: 0.5rem;
+}
+.discription {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  background-color: darkgray;
+}
+.projects {
+  border: 2px solid black;
+  margin: 0.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+  padding: 0.5rem;
+}
+
+.anouncements {
+  border: 2px solid orange;
+  margin: 0.5rem;
+}
+
+.trending {
+  border: 2px solid lightseagreen;
+  margin: 0.5rem;
+}
+.anounce-trend {
+  border: 2px solid brown;
+}
+img {
+  height: 2rem;
+  width: 2rem;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.dashboard-link {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.home {
+  padding-top: 1rem;
+}
+.setting {
+  padding-top: 1rem;
+}
+.single-project {
+  background-color: white;
+  box-shadow: 2rem black;
+  border: 1rem yellow;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
