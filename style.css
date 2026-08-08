@@ -24,32 +24,59 @@
   border: 2px solid blue;
   margin: 0.5rem;
 }
-.discription {
+.main-body {
   display: grid;
   grid-template-columns: 2fr 1fr;
   background-color: darkgray;
 }
 .projects {
   border: 2px solid black;
-  margin: 0.5rem;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+
+  display: flex;
+  flex-direction: column;
+
   gap: 0.5rem;
   padding: 0.5rem;
+}
+
+.projects-discription {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+.anounce-trend {
+  border: 2px solid brown;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  justify-content: space-between;
 }
 
 .anouncements {
   border: 2px solid orange;
   margin: 0.5rem;
 }
+.anouncements-discription {
+  padding: 0.5rem;
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.trending-discription {
+  border: 2px solid lightseagreen;
+  padding: 0.5rem;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+
+  background: white;
+}
 
 .trending {
-  border: 2px solid lightseagreen;
-  margin: 0.5rem;
+  padding: 1rem;
 }
-.anounce-trend {
-  border: 2px solid brown;
-}
+
 img {
   height: 2rem;
   width: 2rem;
