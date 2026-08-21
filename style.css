@@ -52,7 +52,6 @@
 }
 
 .anouncements {
-  border: 2px solid orange;
   margin: 0.5rem;
 }
 .anouncements-discription {
@@ -60,7 +59,7 @@
   background: white;
   border-radius: 12px;
   padding: 20px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  box-shadow: 10px 8px 1em rgba(0, 0, 0, 0.15);
 }
 
 .trending-discription {
@@ -108,4 +107,14 @@ a {
   border: 1rem yellow;
   padding: 0.5rem;
   border-radius: 0.5rem;
+}
+
+.icons {
+  align-items: left;
+  justify-self: end;
+  padding: 1rem;
+}
+.icons img {
+  height: 1rem;
+  width: 1rem;
 }
