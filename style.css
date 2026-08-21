@@ -130,7 +130,10 @@ a {
 
 .top-left {
   align-items: center;
-  display: flex;
+  display: grid;
+  grid-column: auto;
+  grid-template-columns: 1fr 8fr;
+
   gap: 0.5rem;
 }
 .top-right {
@@ -166,5 +169,15 @@ a {
   color: white;
   background: blue;
   font-weight: bolder;
+  border: none;
+}
+
+input {
+  border-radius: 1rem;
+  padding: 0.5rem;
+  border-radius: none;
+  background: lightcyan;
+  color: black;
+  font: bold;
   border: none;
 }
