@@ -5,6 +5,7 @@
 }
 :root {
   --dash-board-bacground-color: rgb(85, 85, 234);
+  --main-background-color: hwb(100 92% 4%);
 }
 
 .container {
@@ -27,7 +28,7 @@
 .main-body {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  background-color: hwb(100 92% 4%);
+  background-color: var(--main-background-color);
 }
 .projects {
   display: flex;
@@ -159,7 +160,7 @@ a {
   margin: 1rem;
   border-radius: 1rem;
   color: white;
-  background: blue;
+  background: var(--dash-board-bacground-color);
   font-weight: bolder;
   border: none;
 }
@@ -168,7 +169,7 @@ input {
   border-radius: 1rem;
   padding: 0.5rem;
   border-radius: none;
-  background: hwb(100 92% 4%);
+  background: var(--main-background-color);
   color: black;
   font: bold;
   border: none;
