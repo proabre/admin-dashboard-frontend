@@ -22,11 +22,12 @@
   display: grid;
   grid-template-rows: 0.5fr 1fr;
   gap: 1rem;
+  box-shadow: 0 6px 10px -4px rgba(0, 0, 0, 0.35);
 }
 .main-body {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  background-color: darkgray;
+  background-color: hwb(100 92% 4%);
 }
 .projects {
   display: flex;
@@ -59,7 +60,6 @@
 }
 
 .trending-discription {
-  border: 2px solid lightseagreen;
   padding: 0.5rem;
   border-radius: 12px;
   padding: 20px;
@@ -168,7 +168,7 @@ input {
   border-radius: 1rem;
   padding: 0.5rem;
   border-radius: none;
-  background: lightcyan;
+  background: hwb(100 92% 4%);
   color: black;
   font: bold;
   border: none;
