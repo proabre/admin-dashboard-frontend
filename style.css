@@ -8,24 +8,19 @@
 }
 
 .container {
-  border: 2px solid red;
   display: grid;
-  grid-template-columns: 1fr 3fr;
+  grid-template-columns: 0.5fr 3fr;
 }
 
 .sidebar-dashboard {
-  border: 2px solid yellowgreen;
-
   background-color: var(--dash-board-bacground-color);
   color: white;
   padding: 1rem;
 }
 .header {
-  border: 2px solid blue;
-
-  padding: 1rem;
+  padding: 0rem 1rem;
   display: grid;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 0.5fr 1fr;
   gap: 1rem;
 }
 .main-body {
@@ -34,8 +29,6 @@
   background-color: darkgray;
 }
 .projects {
-  border: 2px solid black;
-
   display: flex;
   flex-direction: column;
 
@@ -49,7 +42,6 @@
   gap: 1rem;
 }
 .anounce-trend {
-  border: 2px solid brown;
   display: grid;
   grid-template-rows: 1fr 1fr;
   justify-content: space-between;
@@ -108,8 +100,8 @@ a {
 .single-project {
   background-color: white;
   box-shadow: 2rem black;
-  border: 1rem yellow;
-  padding: 0.5rem;
+  border-left: 0.5rem solid gold;
+  padding: 1rem;
   border-radius: 0.5rem;
 }
 
@@ -180,4 +172,15 @@ input {
   color: black;
   font: bold;
   border: none;
+}
+
+.people {
+  display: flex;
+  gap: 0.5rem;
+  margin: 0.5rem;
+}
+
+.each-anouncements {
+  border-bottom: 0.05rem solid black;
+  padding: 0.5rem 0rem;
 }
